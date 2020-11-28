@@ -1,0 +1,14 @@
+{
+    "mortgage":[
+        {
+            "backgroundImg":"./src/assets/bg.jpg",
+            "logo":" https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png",
+            "Logotitle":"Mortgage",
+            "heading":"I Would Like to",
+            "btn1":"Buy Property",
+            "btn2":"Sell Property"
+
+
+        }
+    ]
+}
