@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
@@ -10,12 +11,13 @@ const useStyles = makeStyles((theme) => ({
     minHeight:'100vh'
   }
 }))
+
 function App() {
   const classes= useStyles();
   return (
     <div className={classes.root}>
       <CssBaseline></CssBaseline>
-      <Header></Header>
+      <Header/>
     </div>
   );
 }
